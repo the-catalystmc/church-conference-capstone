@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.header {
+  height: 50px;
+  background-image: url("../images/profilepic/background.jpg");
+  background-repeat: no-repeat;
+}
+.header__menu {
+  height: 40px;
+  margin: 10px 0 0 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
