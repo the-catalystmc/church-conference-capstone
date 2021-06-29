@@ -1,11 +1,12 @@
-
 .header {
-    height: 50px;
-    background-image: url('../images/profilepic/background.jpg');
-    background-repeat: no-repeat;
+  height: 50px;
+  background-image: url("../images/profilepic/background.jpg");
+  background-size: cover;
+  width: 100%;
 
-    &__menu {
-        height: 40px;
+
+  &__menu {
+    width: auto;
     margin: 10px 0 0 10px;
-    }
+  }
 }
