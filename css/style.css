@@ -205,6 +205,10 @@ footer {
   flex-direction: column;
 }
 
+.summit__cont {
+  padding: 0 5px;
+}
+
 .about {
   padding: 0 10px;
   background-image: url("../images/profilepic/background.jpg");
@@ -215,7 +219,7 @@ footer {
 }
 .about__head--name {
   color: #ec5242;
-  font-size: 30px;
+  font-size: 29px;
   font-family: "Lato", sans-serif;
   font-weight: 900;
 }
@@ -247,6 +251,125 @@ footer {
   font-weight: 600;
   text-decoration: underline;
   line-height: 25px;
+}
+.about__logo {
+  padding: 0 10px;
+  text-align: center;
+}
+.about__logo--title {
+  color: #272a31;
+  margin: 20px 0;
+}
+.about__logo--line {
+  width: 40px;
+  margin: auto;
+  height: 3;
+  color: #ec5242;
+  background-color: #ec5242;
+  border: none;
+}
+.about__logo--desc {
+  color: #272a31;
+  margin: 20px 0 0 0;
+}
+.about__logo--logo {
+  border: #272a31 2px solid;
+  margin: 20px 0 0 0;
+}
+.about .summit__cont {
+  padding: 0 15px;
+}
+.about__summit {
+  text-align: center;
+}
+.about__summit--title {
+  color: #272a31;
+  margin: 12px 0;
+}
+.about__summit--line {
+  width: 40px;
+  margin: auto;
+  height: 3;
+  color: #ec5242;
+  background-color: #ec5242;
+  border: none;
+}
+.about__summit--desc {
+  color: #272a31;
+  margin: 12px 0 0 0;
+}
+.about__summit--img1 {
+  background-image: url("/images/pexels-jopwell-2422290.jpg");
+  background-size: cover;
+  width: 100%;
+  max-width: 400px;
+  height: 250px;
+  margin-top: 25px;
+}
+.about__summit--img1 .year {
+  color: #fff;
+  font-size: 29px;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  padding: 100px 0 0 0;
+}
+.about__summit--img1 .name {
+  color: #fff;
+  font-size: 29px;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+}
+.about__summit--img1 .shade {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(248, 50, 50, 0.671);
+}
+.about__summit--img2 {
+  background-image: url("/images/pexels-min-an-853168.jpg");
+  background-size: cover;
+  width: 100%;
+  max-width: 400px;
+  height: 250px;
+  margin-top: 15px;
+}
+.about__summit--img2 .year {
+  color: #fff;
+  font-size: 29px;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  padding: 100px 0 0 0;
+}
+.about__summit--img2 .name {
+  color: #fff;
+  font-size: 29px;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+}
+.about__summit--img2 .shade {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(248, 50, 50, 0.671);
+}
+
+.partner {
+  margin: 40px 0;
+  text-align: center;
+  color: #fff;
+  background-color: #272a31;
+}
+.partner__title {
+  margin: 25px 0 20px 0;
+}
+.partner__line {
+  width: 40px;
+  margin: auto;
+  height: 3;
+  color: #ec5242;
+  background-color: #ec5242;
+  border: none;
+}
+.partner__logo {
+  width: 30%;
 }
 
 /*# sourceMappingURL=style.css.map */
