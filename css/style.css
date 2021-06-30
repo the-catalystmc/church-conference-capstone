@@ -14,19 +14,26 @@ a {
 
 footer {
   width: 100%;
-  height: auto;
+  height: 100px;
   display: flex;
-  align-content: center;
-  align-items: center;
+  flex-direction: column;
+  text-align: center;
 }
 @media only screen and (min-width : 993px) {
   footer {
     justify-content: center;
+    margin: 80px 0 0 0;
   }
 }
 footer img {
   width: 150px;
   max-width: 50%;
+  text-align: center;
+}
+
+.footer__about1 {
+  background-color: #272a31;
+  color: white;
 }
 
 .header {
@@ -76,12 +83,11 @@ footer img {
 }
 .header__nav--cont {
   display: flex;
-  justify-content: space-between;
   width: 100%;
 }
 .header__nav--item {
   list-style: none;
-  margin: 0 40px;
+  margin: 0 20px;
 }
 
 .container {
@@ -357,19 +363,59 @@ footer img {
   padding: 0 5px;
 }
 
+.divide {
+  margin: 80px 0;
+}
+
+#event__overlay2 {
+  padding: 10px;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+@media only screen and (min-width : 993px) {
+  #event__overlay2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+  }
+}
+
 .about {
   padding: 0 10px;
   background-image: url("../images/profilepic/background.jpg");
   background-size: cover;
 }
+@media only screen and (min-width : 993px) {
+  .about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+  }
+}
 .about__head {
   margin: 30px 0 20px 0;
+}
+@media only screen and (min-width : 993px) {
+  .about__head {
+    padding: 0 200px;
+    margin: 0;
+  }
 }
 .about__head--name {
   color: #ec5242;
   font-size: 29px;
   font-family: "Lato", sans-serif;
   font-weight: 900;
+}
+@media only screen and (min-width : 993px) {
+  .about__head--name {
+    font-size: 60px;
+  }
 }
 .about__head--qoute {
   font-family: "Lato", sans-serif;
@@ -386,6 +432,13 @@ footer img {
   padding: 10px;
   line-height: 25px;
   text-align: center;
+}
+@media only screen and (min-width : 993px) {
+  .about__desc {
+    margin-top: 25px;
+    width: 55%;
+    align-self: center;
+  }
 }
 .about__desc--content {
   color: #272a31;
@@ -424,15 +477,33 @@ footer img {
   border: #272a31 2px solid;
   margin: 20px 0 0 0;
 }
+@media only screen and (min-width : 993px) {
+  .about__logo--logo {
+    width: 45%;
+    align-self: center;
+  }
+}
 .about .summit__cont {
   padding: 0 15px;
 }
 .about__summit {
   text-align: center;
 }
+@media only screen and (min-width : 993px) {
+  .about__summit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .about__summit--title {
   color: #272a31;
   margin: 12px 0;
+}
+@media only screen and (min-width : 993px) {
+  .about__summit--title {
+    margin-top: 0;
+  }
 }
 .about__summit--line {
   width: 40px;
@@ -446,6 +517,15 @@ footer img {
   color: #272a31;
   margin: 12px 0 0 0;
 }
+@media only screen and (min-width : 993px) {
+  .about__summit--cont {
+    width: 60%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
 .about__summit--img1 {
   background-image: url("/images/pexels-jopwell-2422290.jpg");
   background-size: cover;
@@ -453,6 +533,11 @@ footer img {
   max-width: 400px;
   height: 250px;
   margin-top: 25px;
+}
+@media only screen and (min-width : 993px) {
+  .about__summit--img1 {
+    margin-top: 0;
+  }
 }
 .about__summit--img1 .year {
   color: #fff;
@@ -480,6 +565,11 @@ footer img {
   height: 250px;
   margin-top: 15px;
 }
+@media only screen and (min-width : 993px) {
+  .about__summit--img2 {
+    margin-top: 0;
+  }
+}
 .about__summit--img2 .year {
   color: #fff;
   font-size: 29px;
@@ -500,7 +590,7 @@ footer img {
 }
 
 .partner {
-  margin: 40px 0;
+  margin: 40px 0 10px 0;
   text-align: center;
   color: #fff;
   background-color: #272a31;
@@ -540,6 +630,15 @@ footer img {
 .partner__logo--image {
   height: 100px;
   background-color: #272a31;
+}
+
+.mobile {
+  display: block;
+}
+@media only screen and (min-width : 993px) {
+  .mobile {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

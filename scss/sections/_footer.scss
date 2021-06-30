@@ -3,17 +3,25 @@ $media-desktop: "only screen and (min-width : 993px)";
 
 footer {
   width: 100%;
-  height: auto;
+  height: 100px;
   display: flex;
-  align-content: center;
-  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  
 
   @media #{$media-desktop} {
     justify-content: center;
+    margin: 80px 0 0 0;
   }
 
   img {
     width: 150px;
     max-width: 50%;
+    text-align: center;
   }
+}
+
+.footer__about1 {
+  background-color: #272a31;
+  color: white;
 }
