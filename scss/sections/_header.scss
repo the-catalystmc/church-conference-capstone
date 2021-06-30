@@ -1,12 +1,31 @@
+$media-desktop: "only screen and (min-width : 768px)";
+
+
 .header {
   height: 50px;
   background-image: url("../images/profilepic/background.jpg");
   background-size: cover;
   width: 100%;
 
+  @media #{$media-desktop} {
+		justify-content: center;
+    padding: 0 80px;
+
+	}
+
+  &__logo {
+    height: 100%;
+    width: 10%;
+    background-color: rgba(255, 255, 255, .6);
+  }
 
   &__menu {
     width: auto;
     margin: 10px 0 0 10px;
+
+    @media #{$media-desktop} {
+      display: none !important;
+  
+    }
   }
 }

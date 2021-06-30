@@ -1,5 +1,16 @@
 
 footer {
+    width: 100%;
+    height: auto;
+    display: flex;
     text-align: center;
-    padding: 20px;
+    align-content: center;
+
+align-items: center;
+
+
+    img{
+        width: 150px;
+        max-width: 50%;
+    }
 }
