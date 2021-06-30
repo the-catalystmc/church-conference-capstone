@@ -1,6 +1,5 @@
 $media-desktop: "only screen and (min-width : 768px)";
 
-
 .header {
   height: 50px;
   background-image: url("../images/profilepic/background.jpg");
@@ -8,15 +7,21 @@ $media-desktop: "only screen and (min-width : 768px)";
   width: 100%;
 
   @media #{$media-desktop} {
-		justify-content: center;
     padding: 0 80px;
-
-	}
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
 
   &__logo {
     height: 100%;
     width: 10%;
-    background-color: rgba(255, 255, 255, .6);
+    background-color: rgba(255, 255, 255, 0.6);
+    display: none;
+
+    @media #{$media-desktop} {
+      display: flex;
+    }
   }
 
   &__menu {
@@ -25,7 +30,27 @@ $media-desktop: "only screen and (min-width : 768px)";
 
     @media #{$media-desktop} {
       display: none !important;
-  
+    }
+  }
+
+  &__nav {
+    display: none;
+
+    @media #{$media-desktop} {
+      width: auto;
+      display: flex;
+      align-items: center;
+      justify-items: flex-end;
+    }
+    &--cont {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+    }
+
+    &--item {
+      list-style: none;
+      margin: 0 40px;
     }
   }
 }
