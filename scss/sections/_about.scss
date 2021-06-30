@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.about {
+  padding: 0 10px;
+  background-image: url("../images/profilepic/background.jpg");
+  background-size: cover;
+
+  &__head {
+    margin: 30px 0 20px 0;
+
+    &--name {
+      color: #ec5242;
+      font-size: 30px;
+      font-family: "Lato", sans-serif;
+      font-weight: 900;
+    }
+
+    &--qoute {
+      font-family: "Lato", sans-serif;
+      margin: 5px 0 0 0;
+      color: #272a31;
+    }
+
+    &--verse {
+      padding: 7px 0 0 0;
+      font-weight: 600;
+    }
+  }
+
+  &__desc {
+    background-color: white;
+    border: 3px solid #ec5242;
+    padding: 10px;
+    line-height: 25px;
+    text-align: center;
+
+    &--content {
+      color: #272a31;
+    }
+  }
+
+  &__contact {
+    text-align: center;
+    margin: 30px 0;
+    line-height: 25px;
+
+    &--email {
+      font-weight: 600;
+      text-decoration: underline;
+      line-height: 25px;
+    }
+  }
+}
