@@ -111,7 +111,7 @@ $media-desktop: "only screen and (min-width : 768px)";
   &__line {
     width: 40px;
     margin: auto;
-    height: 3;
+    height: 3px;
     color: #ec5242;
     background-color: #ec5242;
     border: none;
@@ -195,7 +195,7 @@ $media-desktop: "only screen and (min-width : 768px)";
   &__line {
     width: 40px;
     margin: auto;
-    height: 3;
+    height: 3px;
     color: #ec5242;
     background-color: #ec5242;
     border: none;
@@ -207,6 +207,7 @@ $media-desktop: "only screen and (min-width : 768px)";
 
     @media #{$media-desktop} {
       width: 70%;
+      height: auto;
       flex-direction: row;
       flex-wrap: wrap;
       align-self: center;

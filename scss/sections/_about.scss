@@ -1,11 +1,16 @@
 $media-desktop: "only screen and (min-width : 993px)";
 
-.container {
+.container1 {
   display: flex;
   flex-direction: column;
-	
-	@media #{$media-desktop} {
-  margin-bottom: 40px;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+
+  @media #{$media-desktop} {
+    margin-bottom: 40px;
   }
 }
 
@@ -47,13 +52,11 @@ $media-desktop: "only screen and (min-width : 993px)";
 
   &__head {
     margin: 30px 0 20px 0;
-		text-align: center;
-
+    text-align: center;
 
     @media #{$media-desktop} {
       padding: 0 200px;
       margin: 0;
-
     }
 
     &--name {
@@ -64,7 +67,6 @@ $media-desktop: "only screen and (min-width : 993px)";
 
       @media #{$media-desktop} {
         font-size: 60px;
-
       }
     }
 
@@ -123,7 +125,7 @@ $media-desktop: "only screen and (min-width : 993px)";
     &--line {
       width: 40px;
       margin: auto;
-      height: 3;
+      height: 3px;
       color: #ec5242;
       background-color: #ec5242;
       border: none;
@@ -154,8 +156,8 @@ $media-desktop: "only screen and (min-width : 993px)";
 
     @media #{$media-desktop} {
       display: flex;
-			flex-direction: column;
-			align-items: center;
+      flex-direction: column;
+      align-items: center;
     }
 
     &--title {
@@ -170,7 +172,7 @@ $media-desktop: "only screen and (min-width : 993px)";
     &--line {
       width: 40px;
       margin: auto;
-      height: 3;
+      height: 3px;
       color: #ec5242;
       background-color: #ec5242;
       border: none;
@@ -201,7 +203,7 @@ $media-desktop: "only screen and (min-width : 993px)";
       margin-top: 25px;
 
       @media #{$media-desktop} {
-				margin-top: 0;
+        margin-top: 0;
       }
 
       .year {
@@ -234,8 +236,8 @@ $media-desktop: "only screen and (min-width : 993px)";
       height: 250px;
       margin-top: 15px;
 
-			@media #{$media-desktop} {
-				margin-top: 0;
+      @media #{$media-desktop} {
+        margin-top: 0;
       }
 
       .year {
@@ -269,6 +271,10 @@ $media-desktop: "only screen and (min-width : 993px)";
   background-color: #272a31;
   padding: 0 10px 20px 10px;
 
+  @media #{$media-desktop} {
+    margin-bottom: 0;
+  }
+
   &__title {
     margin: 25px 0 20px 0;
   }
@@ -276,7 +282,7 @@ $media-desktop: "only screen and (min-width : 993px)";
   &__line {
     width: 40px;
     margin: auto;
-    height: 3;
+    height: 3px;
     color: #ec5242;
     background-color: #ec5242;
     border: none;

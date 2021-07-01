@@ -37,7 +37,7 @@ const myData = [{
   speakerImg: 'images/profilepic/pexels-andrea-piacquadio-3789888.jpg',
   speakerName: 'Martin Roon',
   speakerTitle: 'Author',
-  speakerDesc: 'Martin Roon shares captivating stories of a powerful God with churches, conferences, prisons, and other venues around the country, year-round.',
+  speakerDesc: 'Martin Roon shares captivating stories of a powerful God.',
 },
 {
   speakerImg: 'images/profilepic/pexels-thyrone-paas-1722198.jpg',

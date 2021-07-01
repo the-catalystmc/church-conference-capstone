@@ -296,7 +296,7 @@ footer .footer__info {
 .program__line {
   width: 40px;
   margin: auto;
-  height: 3;
+  height: 3px;
   color: #ec5242;
   background-color: #ec5242;
   border: none;
@@ -375,7 +375,7 @@ footer .footer__info {
 .speaker__line {
   width: 40px;
   margin: auto;
-  height: 3;
+  height: 3px;
   color: #ec5242;
   background-color: #ec5242;
   border: none;
@@ -387,6 +387,7 @@ footer .footer__info {
 @media only screen and (min-width : 768px) {
   .speaker__cards {
     width: 70%;
+    height: auto;
     flex-direction: row;
     flex-wrap: wrap;
     align-self: center;
@@ -456,12 +457,17 @@ footer .footer__info {
   }
 }
 
-.container {
+.container1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.container2 {
   display: flex;
   flex-direction: column;
 }
 @media only screen and (min-width : 993px) {
-  .container {
+  .container2 {
     margin-bottom: 40px;
   }
 }
@@ -572,7 +578,7 @@ footer .footer__info {
 .about__logo--line {
   width: 40px;
   margin: auto;
-  height: 3;
+  height: 3px;
   color: #ec5242;
   background-color: #ec5242;
   border: none;
@@ -616,7 +622,7 @@ footer .footer__info {
 .about__summit--line {
   width: 40px;
   margin: auto;
-  height: 3;
+  height: 3px;
   color: #ec5242;
   background-color: #ec5242;
   border: none;
@@ -704,13 +710,18 @@ footer .footer__info {
   background-color: #272a31;
   padding: 0 10px 20px 10px;
 }
+@media only screen and (min-width : 993px) {
+  .partner {
+    margin-bottom: 0;
+  }
+}
 .partner__title {
   margin: 25px 0 20px 0;
 }
 .partner__line {
   width: 40px;
   margin: auto;
-  height: 3;
+  height: 3px;
   color: #ec5242;
   background-color: #ec5242;
   border: none;
