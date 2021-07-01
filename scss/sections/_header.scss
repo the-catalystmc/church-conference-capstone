@@ -32,12 +32,14 @@ $media-desktop: "only screen and (min-width : 768px)";
       display: flex;
       list-style: none;
       justify-content: flex-end;
+      padding: 0 80px;
+    }
+
+    &__item {
+      width: auto;
+      padding: 0 5px;
     }
   }
-
-    &__home {
-      width: 800px;
-    }
 
   &__logo {
     height: 100%;
@@ -85,7 +87,7 @@ $media-desktop: "only screen and (min-width : 768px)";
   }
 
   &__camp {
-    width: auto;
+    width: fit-content;
     height: 80%;
     border: red 5px solid;
     padding: 0 10px;

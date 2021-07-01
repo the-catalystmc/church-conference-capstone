@@ -104,9 +104,11 @@ footer .footer__info {
   display: flex;
   list-style: none;
   justify-content: flex-end;
+  padding: 0 80px;
 }
-.header__home {
-  width: 800px;
+.header .bar__item {
+  width: auto;
+  padding: 0 5px;
 }
 .header__logo {
   height: 100%;
@@ -150,7 +152,7 @@ footer .footer__info {
   width: auto;
 }
 .header__camp {
-  width: auto;
+  width: fit-content;
   height: 80%;
   border: red 5px solid;
   padding: 0 10px;
