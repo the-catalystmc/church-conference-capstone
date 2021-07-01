@@ -7,7 +7,7 @@ $media-desktop: "only screen and (min-width : 768px)";
   width: 100%;
 
   @media #{$media-desktop} {
-    padding: 0 0px;
+    padding: 0 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -55,7 +55,6 @@ $media-desktop: "only screen and (min-width : 768px)";
   &__menu {
     width: auto;
     margin: 10px 0 0 10px;
-    
 
     @media #{$media-desktop} {
       display: none !important;
@@ -73,9 +72,9 @@ $media-desktop: "only screen and (min-width : 768px)";
       // justify-items: flex-end;
       padding: 0 80px;
     }
+
     &--cont {
       display: flex;
-      // justify-content: space-between;
       width: auto;
     }
 
@@ -117,12 +116,12 @@ $media-desktop: "only screen and (min-width : 768px)";
 
   .menu-list {
     color: white;
-  font-weight: 600;
-  font-size: 46px;
-  line-height: 110px;
-  padding-left: 20px;
-  padding-top: 50px;
-  list-style: none;
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 110px;
+    padding-left: 20px;
+    padding-top: 50px;
+    list-style: none;
   }
 }
 

@@ -1,13 +1,11 @@
 $media-desktop: "only screen and (min-width : 993px)";
 
-
 footer {
   width: 100%;
   height: 100px;
   display: flex;
   text-align: center;
   align-items: center;
-  
 
   @media #{$media-desktop} {
     justify-content: center;
@@ -35,7 +33,6 @@ footer {
 }
 
 .footer-white {
- 
   @media #{$media-desktop} {
     background-color: white;
     color: #272a31;
@@ -53,7 +50,6 @@ footer {
 }
 
 .footer-black1 {
- 
   @media #{$media-desktop} {
     background-color: #272a31;
     color: white;
