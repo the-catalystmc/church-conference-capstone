@@ -90,6 +90,40 @@ footer img {
   margin: 0 20px;
 }
 
+.mobile-menu {
+  display: none;
+  background: #272a31;
+  backdrop-filter: blur(15px);
+  height: 100vh;
+  mix-blend-mode: multiply;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+.mobile-menu .mobile-close {
+  width: 20%;
+  float: right;
+  cursor: pointer;
+  font-size: 56px;
+  color: white;
+  padding-bottom: 0;
+  border: none;
+  background: none;
+}
+.mobile-menu .menu-list {
+  color: white;
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 110px;
+  padding-left: 20px;
+  padding-top: 50px;
+  list-style: none;
+}
+
+.show {
+  display: none !important;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -527,7 +561,7 @@ footer img {
   }
 }
 .about__summit--img1 {
-  background-image: url("/images/pexels-jopwell-2422290.jpg");
+  background-image: url("../images/pexels-jopwell-2422290.jpg");
   background-size: cover;
   width: 100%;
   max-width: 400px;
@@ -558,7 +592,7 @@ footer img {
   background-color: rgba(248, 50, 50, 0.671);
 }
 .about__summit--img2 {
-  background-image: url("/images/pexels-min-an-853168.jpg");
+  background-image: url("../images/pexels-min-an-853168.jpg");
   background-size: cover;
   width: 100%;
   max-width: 400px;

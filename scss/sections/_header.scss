@@ -10,6 +10,7 @@ $media-desktop: "only screen and (min-width : 768px)";
     padding: 0 80px;
     display: flex;
     justify-content: space-between;
+
     width: 100%;
   }
 
@@ -27,6 +28,7 @@ $media-desktop: "only screen and (min-width : 768px)";
   &__menu {
     width: auto;
     margin: 10px 0 0 10px;
+    
 
     @media #{$media-desktop} {
       display: none !important;
@@ -53,4 +55,40 @@ $media-desktop: "only screen and (min-width : 768px)";
       margin: 0 20px;
     }
   }
+}
+
+.mobile-menu {
+  display: none;
+  background: #272a31;
+  backdrop-filter: blur(15px);
+  height: 100vh;
+  mix-blend-mode: multiply;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+
+  .mobile-close {
+    width: 20%;
+    float: right;
+    cursor: pointer;
+    font-size: 56px;
+    color: white;
+    padding-bottom: 0;
+    border: none;
+    background: none;
+  }
+
+  .menu-list {
+    color: white;
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 110px;
+  padding-left: 20px;
+  padding-top: 50px;
+  list-style: none;
+  }
+}
+
+.show {
+  display: none !important;
 }
