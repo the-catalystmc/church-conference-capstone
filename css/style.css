@@ -78,7 +78,7 @@ footer .footer__info {
 }
 @media only screen and (min-width : 768px) {
   .header {
-    padding: 0 0px;
+    padding: 0 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -150,6 +150,11 @@ footer .footer__info {
   list-style: none;
   margin: 0 10px;
   width: auto;
+  transition: all 1s;
+}
+.header__nav--item:hover {
+  font-size: large;
+  color: black;
 }
 .header__camp {
   width: fit-content;
