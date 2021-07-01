@@ -3,6 +3,10 @@ $media-desktop: "only screen and (min-width : 993px)";
 .container {
   display: flex;
   flex-direction: column;
+	
+	@media #{$media-desktop} {
+  margin-bottom: 40px;
+  }
 }
 
 .summit__cont {
