@@ -1,12 +1,143 @@
+$media-desktop: "only screen and (min-width : 768px)";
+
 .header {
-  height: 50px;
+  height: auto;
   background-image: url("../images/profilepic/background.jpg");
   background-size: cover;
   width: 100%;
 
+  @media #{$media-desktop} {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    background-color: white;
+  }
+
+  .bar {
+    display: none;
+
+    @media #{$media-desktop} {
+      padding: 0 0;
+      display: block;
+      height: 35px;
+      width: 100%;
+      background: #272a31;
+      color: white;
+    }
+
+    &__cont {
+      display: flex;
+      list-style: none;
+      height: 100%;
+      justify-content: flex-end;
+      align-items: center;
+      padding: 0 140px;
+    }
+
+    &__item {
+      width: auto;
+      padding: 0 5px;
+      color: white;
+      z-index: 2;
+    }
+  }
+
+  &__logo {
+    height: 100%;
+    width: 150px;
+    background-color: rgba(255, 255, 255, 0.6);
+    display: none;
+
+    @media #{$media-desktop} {
+      display: flex;
+    }
+  }
 
   &__menu {
     width: auto;
     margin: 10px 0 0 10px;
+
+    @media #{$media-desktop} {
+      display: none !important;
+    }
   }
+
+  &__nav {
+    display: none;
+
+    @media #{$media-desktop} {
+      display: flex;
+      align-content: center;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 140px;
+      width: 100%;
+    }
+
+    &--cont {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: auto;
+    }
+
+    &--item {
+      list-style: none;
+      width: auto;
+      padding: 0 0 0 40px;
+      transition: all 1s;
+
+      &:hover {
+        font-size: large;
+        color: black;
+      }
+    }
+  }
+
+  &__camp {
+    width: auto;
+    height: auto;
+    border: red 5px solid;
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.mobile-menu {
+  display: none;
+  background: #272a31;
+  backdrop-filter: blur(15px);
+  height: 100vh;
+  mix-blend-mode: multiply;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+
+  .mobile-close {
+    width: 20%;
+    float: right;
+    cursor: pointer;
+    font-size: 56px;
+    color: white;
+    padding-bottom: 0;
+    border: none;
+    background: none;
+  }
+
+  .menu-list {
+    color: white;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 110px;
+    padding-left: 20px;
+    padding-top: 50px;
+    list-style: none;
+  }
+}
+
+.show {
+  display: none !important;
 }
