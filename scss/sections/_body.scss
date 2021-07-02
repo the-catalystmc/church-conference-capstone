@@ -3,11 +3,15 @@
   font-family: "Lato", sans-serif;
   margin: 0;
   padding: 0;
-  // width: 100%;
 }
 
 a {
   text-decoration: none;
   color: inherit;
   background: none;
+}
+
+body {
+  width: 100vw;
+  // overflow-x: hidden;
 }
