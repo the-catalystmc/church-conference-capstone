@@ -15,19 +15,22 @@ $media-desktop: "only screen and (min-width : 768px)";
   }
 
   &__overlay {
-    padding: 10px;
+    // padding: 10px;
     height: 100%;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.5);
+
+    @media #{$media-desktop} {
+      padding-top: 70px;
+    }
   }
 
   &__head {
     margin: 30px 0 20px 0;
 
     @media #{$media-desktop} {
-      width: 60%;
-      margin-left: 15%;
-      margin-top: 5px;
+      width: 90%;
+      padding: 0 140px;
     }
 
     &--name {
@@ -61,7 +64,7 @@ $media-desktop: "only screen and (min-width : 768px)";
 
     @media #{$media-desktop} {
       width: 40%;
-      margin-left: 15%;
+      margin: 0 140px;
     }
 
     &--content {
@@ -73,13 +76,13 @@ $media-desktop: "only screen and (min-width : 768px)";
     margin: 20px 0 40px 0;
 
     @media #{$media-desktop} {
-      width: 60%;
-      margin-left: 15%;
+      width: 100%;
+      margin-left: 140px;
     }
 
     &--tframe {
       color: #272a31;
-      font-size: 30px;
+      font-size: 25px;
       font-family: "Lato", sans-serif;
       font-weight: 900;
     }
@@ -174,6 +177,10 @@ $media-desktop: "only screen and (min-width : 768px)";
       display: none;
     }
   }
+  .see {
+    text-align: center;
+    text-decoration: underline;
+  }
 }
 
 .speaker {
@@ -227,15 +234,15 @@ $media-desktop: "only screen and (min-width : 768px)";
     display: flex;
     align-content: flex-end;
     justify-content: flex-end;
-    width: 130px;
+    width: 140px;
     height: 120px;
-    border-radius: 50%;
-    border: 2px #ec5242 solid;
+    // border-radius: 50%;
+    // border: 2px #ec5242 solid;
     margin: 0 15px 0 0;
   }
 
   &__pic {
-    border-radius: 50%;
+    // border-radius: 50%;
     width: 100%;
     height: auto;
   }

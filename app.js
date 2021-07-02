@@ -57,6 +57,18 @@ const myData = [{
   speakerTitle: 'Motivational Speaker',
   speakerDesc: 'A missionary sent to spread the Lords holy word and his teachings.',
 },
+{
+  speakerImg: 'images/profilepic/pexels-andrea-piacquadio-3789888.jpg',
+  speakerName: 'Martin Roon',
+  speakerTitle: 'Author',
+  speakerDesc: 'Martin Roon shares captivating stories of a powerful God.',
+},
+{
+  speakerImg: 'images/profilepic/pexels-andrea-piacquadio-762020.jpg',
+  speakerName: 'Maya Havanu',
+  speakerTitle: 'Lecturer at Harvard',
+  speakerDesc: 'A missionary sent to spread the Lords holy word and his teachings.',
+},
 ];
 
 const createSpeakerCard = (speakerData) => {

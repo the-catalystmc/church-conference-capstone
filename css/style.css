@@ -3,7 +3,6 @@
   font-family: "Lato", sans-serif;
   margin: 0;
   padding: 0;
-  width: 100%;
 }
 
 a {
@@ -19,7 +18,7 @@ footer {
   text-align: center;
   align-items: center;
 }
-@media only screen and (min-width : 993px) {
+@media only screen and (min-width : 768px) {
   footer {
     justify-content: center;
     margin: 0 0 0 0;
@@ -38,13 +37,13 @@ footer .footer__info {
   background-color: #272a31;
   color: white;
 }
-@media only screen and (min-width : 993px) {
+@media only screen and (min-width : 768px) {
   .footer-black {
     display: none;
   }
 }
 
-@media only screen and (min-width : 993px) {
+@media only screen and (min-width : 768px) {
   .footer-white {
     background-color: white;
     color: #272a31;
@@ -56,13 +55,13 @@ footer .footer__info {
   background-color: white;
   color: #272a31;
 }
-@media only screen and (min-width : 993px) {
+@media only screen and (min-width : 768px) {
   .footer-white1 {
     display: none;
   }
 }
 
-@media only screen and (min-width : 993px) {
+@media only screen and (min-width : 768px) {
   .footer-black1 {
     background-color: #272a31;
     color: white;
@@ -71,7 +70,7 @@ footer .footer__info {
 }
 
 .header {
-  height: 70px;
+  height: 80px;
   background-image: url("../images/profilepic/background.jpg");
   background-size: cover;
   width: 100%;
@@ -93,18 +92,17 @@ footer .footer__info {
   .header .bar {
     padding: 0 0;
     display: block;
-    height: 30px;
+    height: 35px;
     width: 100%;
     background: #272a31;
     color: white;
-    z-index: 2;
   }
 }
 .header .bar__cont {
   display: flex;
   list-style: none;
   justify-content: flex-end;
-  padding: 0 80px;
+  padding: 0 140px;
 }
 .header .bar__item {
   width: auto;
@@ -112,7 +110,7 @@ footer .footer__info {
 }
 .header__logo {
   height: 100%;
-  width: 15%;
+  width: 150px;
   background-color: rgba(255, 255, 255, 0.6);
   display: none;
 }
@@ -135,32 +133,38 @@ footer .footer__info {
 }
 @media only screen and (min-width : 768px) {
   .header__nav {
-    width: 100%;
     display: flex;
     align-items: center;
-    text-align: center;
-    padding: 0 80px;
+    justify-content: space-between;
+    padding: 0 140px;
+    width: 100%;
   }
 }
 .header__nav--cont {
   display: flex;
-  width: auto;
+  height: 100%;
+  justify-content: center;
+  height: 30px;
 }
 .header__nav--item {
   list-style: none;
-  margin: 0 10px;
   width: auto;
+  padding: 0 20px;
   transition: all 1s;
 }
 .header__nav--item:hover {
   font-size: large;
   color: black;
 }
+.header__nav--item #button {
+  padding-right: 0;
+}
 .header__camp {
-  width: fit-content;
-  height: 80%;
+  width: auto;
+  height: auto;
   border: red 5px solid;
-  padding: 0 10px;
+  padding: 3px 10px;
+  display: flex;
 }
 
 .mobile-menu {
@@ -213,19 +217,22 @@ footer .footer__info {
   }
 }
 .event__overlay {
-  padding: 10px;
   height: 100%;
   width: 100%;
   background-color: rgba(255, 255, 255, 0.5);
+}
+@media only screen and (min-width : 768px) {
+  .event__overlay {
+    padding-top: 70px;
+  }
 }
 .event__head {
   margin: 30px 0 20px 0;
 }
 @media only screen and (min-width : 768px) {
   .event__head {
-    width: 60%;
-    margin-left: 15%;
-    margin-top: 5px;
+    width: 90%;
+    padding: 0 140px;
   }
 }
 .event__head--name {
@@ -257,7 +264,7 @@ footer .footer__info {
 @media only screen and (min-width : 768px) {
   .event__desc {
     width: 40%;
-    margin-left: 15%;
+    margin: 0 140px;
   }
 }
 .event__desc--content {
@@ -268,13 +275,13 @@ footer .footer__info {
 }
 @media only screen and (min-width : 768px) {
   .event__date {
-    width: 60%;
-    margin-left: 15%;
+    width: 100%;
+    margin-left: 140px;
   }
 }
 .event__date--tframe {
   color: #272a31;
-  font-size: 30px;
+  font-size: 25px;
   font-family: "Lato", sans-serif;
   font-weight: 900;
 }
@@ -363,6 +370,10 @@ footer .footer__info {
     display: none;
   }
 }
+.program .see {
+  text-align: center;
+  text-decoration: underline;
+}
 
 .speaker {
   display: flex;
@@ -413,14 +424,11 @@ footer .footer__info {
   display: flex;
   align-content: flex-end;
   justify-content: flex-end;
-  width: 130px;
+  width: 140px;
   height: 120px;
-  border-radius: 50%;
-  border: 2px #ec5242 solid;
   margin: 0 15px 0 0;
 }
 .speaker__pic {
-  border-radius: 50%;
   width: 100%;
   height: auto;
 }
@@ -471,7 +479,7 @@ footer .footer__info {
   display: flex;
   flex-direction: column;
 }
-@media only screen and (min-width : 993px) {
+@media only screen and (min-width : 768px) {
   .container2 {
     margin-bottom: 40px;
   }
@@ -491,7 +499,7 @@ footer .footer__info {
   width: 100%;
   background-color: rgba(255, 255, 255, 0.5);
 }
-@media only screen and (min-width : 993px) {
+@media only screen and (min-width : 768px) {
   #event__overlay2 {
     display: flex;
     flex-direction: column;
@@ -506,7 +514,7 @@ footer .footer__info {
   background-image: url("../images/profilepic/background.jpg");
   background-size: cover;
 }
-@media only screen and (min-width : 993px) {
+@media only screen and (min-width : 768px) {
   .about {
     display: flex;
     flex-direction: column;
@@ -519,7 +527,7 @@ footer .footer__info {
   margin: 30px 0 20px 0;
   text-align: center;
 }
-@media only screen and (min-width : 993px) {
+@media only screen and (min-width : 768px) {
   .about__head {
     padding: 0 200px;
     margin: 0;
@@ -531,7 +539,7 @@ footer .footer__info {
   font-family: "Lato", sans-serif;
   font-weight: 900;
 }
-@media only screen and (min-width : 993px) {
+@media only screen and (min-width : 768px) {
   .about__head--name {
     font-size: 60px;
   }
@@ -552,7 +560,7 @@ footer .footer__info {
   line-height: 25px;
   text-align: center;
 }
-@media only screen and (min-width : 993px) {
+@media only screen and (min-width : 768px) {
   .about__desc {
     margin-top: 25px;
     width: 55%;
@@ -596,7 +604,7 @@ footer .footer__info {
   border: #272a31 2px solid;
   margin: 20px 0 0 0;
 }
-@media only screen and (min-width : 993px) {
+@media only screen and (min-width : 768px) {
   .about__logo--logo {
     width: 45%;
     align-self: center;
@@ -608,7 +616,7 @@ footer .footer__info {
 .about__summit {
   text-align: center;
 }
-@media only screen and (min-width : 993px) {
+@media only screen and (min-width : 768px) {
   .about__summit {
     display: flex;
     flex-direction: column;
@@ -619,7 +627,7 @@ footer .footer__info {
   color: #272a31;
   margin: 12px 0;
 }
-@media only screen and (min-width : 993px) {
+@media only screen and (min-width : 768px) {
   .about__summit--title {
     margin-top: 0;
   }
@@ -636,7 +644,7 @@ footer .footer__info {
   color: #272a31;
   margin: 12px 0 0 0;
 }
-@media only screen and (min-width : 993px) {
+@media only screen and (min-width : 768px) {
   .about__summit--cont {
     width: 60%;
     margin-top: 30px;
@@ -653,7 +661,7 @@ footer .footer__info {
   height: 250px;
   margin-top: 25px;
 }
-@media only screen and (min-width : 993px) {
+@media only screen and (min-width : 768px) {
   .about__summit--img1 {
     margin-top: 0;
   }
@@ -684,7 +692,7 @@ footer .footer__info {
   height: 250px;
   margin-top: 15px;
 }
-@media only screen and (min-width : 993px) {
+@media only screen and (min-width : 768px) {
   .about__summit--img2 {
     margin-top: 0;
   }
@@ -715,7 +723,7 @@ footer .footer__info {
   background-color: #272a31;
   padding: 0 10px 20px 10px;
 }
-@media only screen and (min-width : 993px) {
+@media only screen and (min-width : 768px) {
   .partner {
     margin-bottom: 0;
   }
@@ -736,7 +744,7 @@ footer .footer__info {
   justify-content: center;
   flex-wrap: wrap;
 }
-@media only screen and (min-width : 993px) {
+@media only screen and (min-width : 768px) {
   .partner__cont {
     flex-wrap: nowrap;
     padding: 40px 0;
@@ -746,7 +754,7 @@ footer .footer__info {
   padding: 10px 10px;
   width: 30%;
 }
-@media only screen and (min-width : 993px) {
+@media only screen and (min-width : 768px) {
   .partner__logo {
     width: 20%;
   }
@@ -759,7 +767,7 @@ footer .footer__info {
 .mobile {
   display: block;
 }
-@media only screen and (min-width : 993px) {
+@media only screen and (min-width : 768px) {
   .mobile {
     display: none;
   }
