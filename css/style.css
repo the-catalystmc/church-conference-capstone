@@ -13,6 +13,7 @@ a {
 
 body {
   width: 100vw;
+  overflow-x: hidden;
 }
 
 footer {
@@ -197,7 +198,7 @@ footer .footer__info {
 .mobile-menu .menu-list {
   color: white;
   font-weight: 600;
-  font-size: 46px;
+  font-size: 40px;
   line-height: 110px;
   padding-left: 20px;
   padding-top: 50px;
@@ -224,6 +225,7 @@ footer .footer__info {
   }
 }
 .event__overlay {
+  padding-top: 40px;
   height: 100%;
   width: 100%;
   background-color: rgba(255, 255, 255, 0.5);
@@ -234,7 +236,7 @@ footer .footer__info {
   }
 }
 .event__head {
-  margin: 30px 0 20px 0;
+  margin: 0 0 20px 0;
 }
 @media only screen and (min-width : 768px) {
   .event__head {
