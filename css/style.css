@@ -603,10 +603,12 @@ footer .footer__info {
 .about__logo--logo {
   border: #272a31 2px solid;
   margin: 20px 0 0 0;
+  width: 100%;
+  max-width: 500px;
+  height: 220px;
 }
 @media only screen and (min-width : 768px) {
   .about__logo--logo {
-    width: 45%;
     align-self: center;
   }
 }
@@ -615,6 +617,7 @@ footer .footer__info {
 }
 .about__summit {
   text-align: center;
+  padding: 0 10px;
 }
 @media only screen and (min-width : 768px) {
   .about__summit {
@@ -646,10 +649,10 @@ footer .footer__info {
 }
 @media only screen and (min-width : 768px) {
   .about__summit--cont {
-    width: 60%;
+    width: 100%;
     margin-top: 30px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
   }
 }
@@ -657,13 +660,14 @@ footer .footer__info {
   background-image: url("../images/pexels-jopwell-2422290.jpg");
   background-size: cover;
   width: 100%;
-  max-width: 400px;
-  height: 250px;
+  max-width: 500px;
+  height: 300px;
   margin-top: 25px;
 }
 @media only screen and (min-width : 768px) {
   .about__summit--img1 {
     margin-top: 0;
+    margin-right: 10px;
   }
 }
 .about__summit--img1 .year {
@@ -688,8 +692,8 @@ footer .footer__info {
   background-image: url("../images/pexels-min-an-853168.jpg");
   background-size: cover;
   width: 100%;
-  max-width: 400px;
-  height: 250px;
+  max-width: 500px;
+  height: 300px;
   margin-top: 15px;
 }
 @media only screen and (min-width : 768px) {
@@ -721,7 +725,6 @@ footer .footer__info {
   text-align: center;
   color: #fff;
   background-color: #272a31;
-  padding: 0 10px 20px 10px;
 }
 @media only screen and (min-width : 768px) {
   .partner {
@@ -746,8 +749,10 @@ footer .footer__info {
 }
 @media only screen and (min-width : 768px) {
   .partner__cont {
+    width: 100%;
     flex-wrap: nowrap;
-    padding: 40px 0;
+    justify-content: space-between;
+    padding: 20px 200px;
   }
 }
 .partner__logo {
@@ -756,10 +761,12 @@ footer .footer__info {
 }
 @media only screen and (min-width : 768px) {
   .partner__logo {
-    width: 20%;
+    width: 12%;
+    height: 100px;
   }
 }
 .partner__logo--image {
+  width: 100%;
   height: 100px;
   background-color: #272a31;
 }

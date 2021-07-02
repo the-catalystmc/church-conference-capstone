@@ -138,9 +138,12 @@ $media-desktop: "only screen and (min-width : 768px)";
     &--logo {
       border: #272a31 2px solid;
       margin: 20px 0 0 0;
+      width: 100%;
+      max-width: 500px;
+      height: 220px;  
 
       @media #{$media-desktop} {
-        width: 45%;
+      
         align-self: center;
       }
     }
@@ -152,6 +155,7 @@ $media-desktop: "only screen and (min-width : 768px)";
 
   &__summit {
     text-align: center;
+    padding: 0 10px;
 
     @media #{$media-desktop} {
       display: flex;
@@ -184,11 +188,10 @@ $media-desktop: "only screen and (min-width : 768px)";
 
     &--cont {
       @media #{$media-desktop} {
-        width: 60%;
+        width: 100%;
         margin-top: 30px;
         display: flex;
-        // align-content: space-between;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
       }
     }
@@ -197,12 +200,13 @@ $media-desktop: "only screen and (min-width : 768px)";
       background-image: url("../images/pexels-jopwell-2422290.jpg");
       background-size: cover;
       width: 100%;
-      max-width: 400px;
-      height: 250px;
+      max-width: 500px;
+      height: 300px;
       margin-top: 25px;
 
       @media #{$media-desktop} {
         margin-top: 0;
+        margin-right: 10px;
       }
 
       .year {
@@ -231,8 +235,8 @@ $media-desktop: "only screen and (min-width : 768px)";
       background-image: url("../images/pexels-min-an-853168.jpg");
       background-size: cover;
       width: 100%;
-      max-width: 400px;
-      height: 250px;
+      max-width: 500px;
+      height: 300px;
       margin-top: 15px;
 
       @media #{$media-desktop} {
@@ -268,7 +272,7 @@ $media-desktop: "only screen and (min-width : 768px)";
   text-align: center;
   color: #fff;
   background-color: #272a31;
-  padding: 0 10px 20px 10px;
+  // padding: 0 10px 20px 10px;
 
   @media #{$media-desktop} {
     margin-bottom: 0;
@@ -293,8 +297,10 @@ $media-desktop: "only screen and (min-width : 768px)";
     flex-wrap: wrap;
 
     @media #{$media-desktop} {
+      width: 100%;
       flex-wrap: nowrap;
-      padding: 40px 0;
+      justify-content: space-between;
+      padding: 20px 200px;
     }
   }
 
@@ -303,10 +309,12 @@ $media-desktop: "only screen and (min-width : 768px)";
     width: 30%;
 
     @media #{$media-desktop} {
-      width: 20%;
+      width: 12%;
+      height: 100px;
     }
 
     &--image {
+      width: 100%;
       height: 100px;
       background-color: #272a31;
     }

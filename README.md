@@ -2,8 +2,6 @@
 
 Faith Apostolic Annual Conference Website.
 
-![screenshot](./app_screenshot.png)
-
 This is a website that was created as a Microverse Capstone. The website is a mock of an annual conference of churches. There is a home page that consist of the main program and the speakers. The about page gives more information on the annual conference.
 
 ## Built With
@@ -41,4 +39,4 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-Original design idea by Cindy Shin in Behance
+Original design idea by Cindy Shin in Behance [Find her here](https://www.behance.net/adagio07)
