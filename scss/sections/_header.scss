@@ -1,13 +1,13 @@
 $media-desktop: "only screen and (min-width : 768px)";
 
 .header {
-  height: 80px;
+  height: auto;
   background-image: url("../images/profilepic/background.jpg");
   background-size: cover;
   width: 100%;
 
   @media #{$media-desktop} {
-    padding: 0 0;
+    padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -30,13 +30,17 @@ $media-desktop: "only screen and (min-width : 768px)";
     &__cont {
       display: flex;
       list-style: none;
+      height: 100%;
       justify-content: flex-end;
+      align-items: center;
       padding: 0 140px;
     }
 
     &__item {
       width: auto;
       padding: 0 5px;
+      color: white;
+      z-index: 2;
     }
   }
 
@@ -65,6 +69,7 @@ $media-desktop: "only screen and (min-width : 768px)";
 
     @media #{$media-desktop} {
       display: flex;
+      align-content: center;
       align-items: center;
       justify-content: space-between;
       padding: 0 140px;
@@ -73,34 +78,33 @@ $media-desktop: "only screen and (min-width : 768px)";
 
     &--cont {
       display: flex;
-      height: 100%;
       justify-content: center;
-      height: 30px;
+      align-items: center;
+      height: auto;
     }
 
     &--item {
       list-style: none;
       width: auto;
-      padding: 0 20px;
+      padding: 0 0 0 40px;
       transition: all 1s;
 
       &:hover {
         font-size: large;
         color: black;
       }
-
-      #button {
-        padding-right: 0;
-      }
     }
+      
+
   }
 
   &__camp {
     width: auto;
     height: auto;
     border: red 5px solid;
-    padding: 3px 10px;
+    padding: 10px 10px;
     display: flex;
+    align-items: center;
   }
 }
 

@@ -176,6 +176,7 @@ $media-desktop: "only screen and (min-width : 768px)";
     @media #{$media-desktop} {
       display: none;
     }
+
   }
   .see {
     text-align: center;
